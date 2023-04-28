@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+
+  <body>
+    <h2>This is form tutorial</h2>
+    <form action="Backend.js">
+        <label for="name"> Name</label>
+      <div>
+       <input type="text" name="myName" id="name" />
+    </div>
+      <br />
+      <label for="role">Role</label>
+      <div>
+        <input type="text" name="myRole" id="role"/>
+      </div>
+      <br />
+      <label for="email"> Email</label>
+      <div>
+       <input type="email" name="myEmail" id="email" />
+    </div>
+      <br />
+      <label for="date"> Date</label>
+      <div>
+       <input type="date" name="myDate" id="date">
+      </div>
+      <br>
+      <label for="number"> Number</label>
+      <div>
+       <input type="number" name="myBonus" id="number">
+      </div>
+      <br>
+      <div>
+        <label for="eligible">Are you eligible</label>
+        <input type="checkbox" name="myEligibility" id="eligible" >
+      </div>
+      <br>
+      
+      <div>
+        <label for="Gender">Male Female</label>
+       <input type="checkbox" name="myGender"> <input type="checkbox" name="myGender" id="Gender">
+       <br>
+       <label for="car"></label>
+       <select name="myCar" id="car">
+           <option value="Audi" >AUDI</option>
+           <option value="Merdz">MERCEDEZ</option>
+           <option value="Ind">Indica</option>
+           </select>
+       <div>
+        <br>
+        Write about yourself: <br> <textarea name="myText" id="" cols="30" rows="10"></textarea>   
+       </div>
+       <div>
+        <input type="submit" value="submit Now" ></input>
+        <input type="reset" value="Reset Now" ></input>
+
+        
+      </div>
+      <br>
+      
+      </div>
+    </form>
+  </body>
+</html>
