@@ -1,69 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms</title>
-  </head>
+</head>
 
-  <body>
-    <h2>This is form tutorial</h2>
-    <form action="Backend.js">
-        <label for="name"> Name</label>
-      <div>
-       <input type="text" name="myName" id="name" />
-    </div>
-      <br />
-      <label for="role">Role</label>
-      <div>
-        <input type="text" name="myRole" id="role"/>
-      </div>
-      <br />
-      <label for="email"> Email</label>
-      <div>
-       <input type="email" name="myEmail" id="email" />
-    </div>
-      <br />
-      <label for="date"> Date</label>
-      <div>
-       <input type="date" name="myDate" id="date">
-      </div>
-      <br>
-      <label for="number"> Number</label>
-      <div>
-       <input type="number" name="myBonus" id="number">
-      </div>
-      <br>
-      <div>
-        <label for="eligible">Are you eligible</label>
-        <input type="checkbox" name="myEligibility" id="eligible" >
-      </div>
-      <br>
-      
-      <div>
-        <label for="Gender">Male Female</label>
-       <input type="checkbox" name="myGender"> <input type="checkbox" name="myGender" id="Gender">
-       <br>
-       <label for="car"></label>
-       <select name="myCar" id="car">
-           <option value="Audi" >AUDI</option>
-           <option value="Merdz">MERCEDEZ</option>
-           <option value="Ind">Indica</option>
-           </select>
-       <div>
+<body>
+    <h2>This is form Tutorial</h2>
+    <form action="backend.php">
+
+        <div>
+            <label for="name"> Name</label>
+            <input type="text" name="myName" id="name">
+        </div>
         <br>
-        Write about yourself: <br> <textarea name="myText" id="" cols="30" rows="10"></textarea>   
-       </div>
-       <div>
-        <input type="submit" value="submit Now" ></input>
-        <input type="reset" value="Reset Now" ></input>
+        <div>
+            <label for="role">Role</label>
+            <input type="text" name="'myRole" id="role">
+        </div>
+        <br>
+        <div>
+            <label for="email"></label>
+            <input type="text" name="myEmail" id="email">
+        </div>
+        <br>
+        <div>
+            <label for="date">Date</label>
+            <input type="date" name="mydate" id="date">
+        </div>
+        <br>
+        <div>
+            <label for="number">Number</label>
+            <input type="number" name="myBonus" id="number">
+        </div>
+        <br>
+        <div>
+            <label for="eligible">Are you eligible?</label>
+            <input type="checkbox" name="mycheckBox" id="eligible">
+        </div>
+        <br>
+        <div>
+            <label for="male">Male</label>
+            <input type="radio" name="myGender" id="male">
+            <label for="female">Female</label>
+            <input type="radio" name="myGender" id="female">
+            <label for="other">Other</label>
+            <input type="radio" name="myGender" id="other">
+        </div>
+        <br>
+        <div>
+            <label for="about-yourself">Write about yourself:</label>
+            <br><textarea name="myText" cols="30" rows="10" id="about-yourself"></textarea>
+        </div>
 
-        
-      </div>
-      <br>
-      
-      </div>
+        <div>
+            <input type="submit" value="SubmitNow">
+            <input type="reset" value="ResetNow">
+        </div><br>
+        <div>
+            <label for="car">Car</label>
+            <select name="myCar" id="car">
+                <option value="Mrcdz">Mercedez</option>
+                <option value="aud">Audi</option>
+                <option value="BMW" slelected>BMW</option>
+            </select>
+            <br>
+        </div>
+
     </form>
-  </body>
+
+</body>
+
 </html>
