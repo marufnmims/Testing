@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box shadow and text shadow</title>
+    <style>
+        .container{
+            display: flex;
+
+        }
+        .card{
+            padding: 23px 12px;
+            margin: 23px 12px;
+            /* border: 2px solid red; */
+            background-color: burlywood;
+
+            /* box-shadow offset-x offset-y  */
+            box-shadow: -9px -9px green;
+            box-shadow: -9px -9px 12px green;
+            /* box-shadow: inset 12px 12px green;  */
+
+        }
+        .card h2{
+            text-shadow: 2px 2px  white;
+            /* text-shadow:-2px -2px -1px green; */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card" id="card1">
+            <h2>This is HTML course</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium ducimus aliquid tempora animi adipisci odio libero, quis officiis iste fuga. Porro sequi unde, cupiditate odit dignissimos quod, quasi quidem molestiae ipsa cum est corrupti.</p>
+        </div>
+        <div class="card" id="card2">
+            <h2>This is CSS course</h2>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium ducimus aliquid tempora animi adipisci odio libero, quis officiis iste fuga. Porro sequi unde, cupiditate odit dignissimos quod, quasi quidem molestiae ipsa cum est corrupti.</p>
+        </div>
+        <div class="card" id="card3">
+           <h2>Card3</h2>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium ducimus aliquid tempora animi adipisci odio libero, quis officiis iste fuga. Porro sequi unde, cupiditate odit dignissimos quod, quasi quidem molestiae ipsa cum est corrupti.</p>
+        </div>
+    </div>
+</body>
+</html>
